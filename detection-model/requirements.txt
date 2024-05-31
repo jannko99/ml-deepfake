@@ -37,6 +37,7 @@ ml-dtypes==0.3.2
 namex==0.0.8
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
 numpy==1.26.4
+opencv-python==4.9.0.80
 opt-einsum==3.3.0
 optree==0.11.0
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1710075952259/work
