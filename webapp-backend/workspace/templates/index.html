@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Deepfake Erkennung</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Deepfake Erkennung</h1>
+      <form method="post" action="/predict" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file">Bild hochladen</label>
+          <input type="file" class="form-control-file" id="file" name="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Erkennen</button>
+      </form>
+      {% if prediction %}
+        <h2>Ergebnis: {{ prediction }}</h2>
+        <img src="{{ image_path }}" alt="Hochgeladenes Bild" style="max-width: 500px;">
+      {% endif %}
+    </div>
+  </body>
+</html>
