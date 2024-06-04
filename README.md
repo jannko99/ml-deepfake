@@ -6,16 +6,34 @@
 
 ## Training
 
-- You can find the Trainings logs [here](detction-model/workspace/logs)
+- You can find the Trainings logs [here](detection-model/workspace/logs)
 
 ### model-v1
 ---
+```
+------------------
+Precision: 87.76 %
+Recall: 88.71 %
+Accuracy: 88.28 %
+```
 
 ### model-v2
 ---
+```
+------------------
+Precision: 87.21 %
+Recall: 86.4 %
+Accuracy: 86.99 %
+```
 
 ### model-v3
 ---
+```
+------------------
+Precision: 87.35 %
+Recall: 88.39 %
+Accuracy: 87.92 %
+```
 
 ## Interpretation and validation of results 
 ---
